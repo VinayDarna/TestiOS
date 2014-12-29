@@ -8,6 +8,8 @@
 
 #import "SecondViewController.h"
 
+#import <Crashlytics/Crashlytics.h>
+
 @interface SecondViewController ()
 
 @end
@@ -38,6 +40,8 @@
 
 - (IBAction)loginClk:(id)sender
 {
+//    [[Crashlytics sharedInstance] crash];
+    
     UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ThirdViewController *thi = [story instantiateViewControllerWithIdentifier:@"ThirdViewController"];
     [self.navigationController pushViewController:thi animated:YES];

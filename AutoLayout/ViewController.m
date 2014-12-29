@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Crashlytics/Crashlytics.h>
 
 @interface ViewController ()
 
@@ -29,6 +30,8 @@
     UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     secCntrl = [story instantiateViewControllerWithIdentifier:@"SecondViewController"];
     [self.navigationController pushViewController:secCntrl animated:YES];
+    
+    // [[Crashlytics sharedInstance] crash];
 }
 
 @end

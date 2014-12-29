@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B546C8231A515A5500A0862C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B546C8211A515A5500A0862C /* Crashlytics.framework */; };
+		B546C8241A515A5500A0862C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B546C8221A515A5500A0862C /* Fabric.framework */; };
 		B571AF5A1A2D971900F9A265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B571AF591A2D971900F9A265 /* main.m */; };
 		B571AF5D1A2D971900F9A265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B571AF5C1A2D971900F9A265 /* AppDelegate.m */; };
 		B571AF601A2D971900F9A265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B571AF5F1A2D971900F9A265 /* ViewController.m */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B546C8211A515A5500A0862C /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		B546C8221A515A5500A0862C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		B571AF541A2D971900F9A265 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B571AF581A2D971900F9A265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B571AF591A2D971900F9A265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B546C8231A515A5500A0862C /* Crashlytics.framework in Frameworks */,
+				B546C8241A515A5500A0862C /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +116,8 @@
 		B571AF571A2D971900F9A265 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B546C8211A515A5500A0862C /* Crashlytics.framework */,
+				B546C8221A515A5500A0862C /* Fabric.framework */,
 				B571AF841A2DE50500F9A265 /* 7.png */,
 				B571AF821A2DD4A500F9A265 /* 2Unselect.png */,
 				B571AF581A2D971900F9A265 /* Info.plist */,
@@ -145,6 +153,7 @@
 				B571AF501A2D971800F9A265 /* Sources */,
 				B571AF511A2D971800F9A265 /* Frameworks */,
 				B571AF521A2D971800F9A265 /* Resources */,
+				B546C8201A5159DE00A0862C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -231,6 +240,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B546C8201A5159DE00A0862C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run a1817e1ed17c8bdd4fa34abdeecc6b423dc2d331 c3ea180a5f80534345a6740f6feb4bcb84a2d5a4add87881931d615cba7795df";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B571AF501A2D971800F9A265 /* Sources */ = {
@@ -369,6 +394,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +411,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
