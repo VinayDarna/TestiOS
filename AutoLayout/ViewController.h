@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
 @interface ViewController : UIViewController
+{
+    SecondViewController *secCntrl;
+    
+}
 
+- (IBAction)nextClk:(id)sender;
 
 @end
 

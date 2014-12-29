@@ -14,6 +14,10 @@
 		B571AF651A2D971900F9A265 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B571AF641A2D971900F9A265 /* Images.xcassets */; };
 		B571AF681A2D971900F9A265 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B571AF661A2D971900F9A265 /* LaunchScreen.xib */; };
 		B571AF741A2D971900F9A265 /* AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B571AF731A2D971900F9A265 /* AutoLayoutTests.m */; };
+		B571AF7F1A2DD33E00F9A265 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B571AF7E1A2DD33E00F9A265 /* SecondViewController.m */; };
+		B571AF831A2DD4A500F9A265 /* 2Unselect.png in Resources */ = {isa = PBXBuildFile; fileRef = B571AF821A2DD4A500F9A265 /* 2Unselect.png */; };
+		B571AF851A2DE50500F9A265 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B571AF841A2DE50500F9A265 /* 7.png */; };
+		B5A698401A2EE19D0066B555 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A6983F1A2EE19D0066B555 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		B571AF6D1A2D971900F9A265 /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B571AF721A2D971900F9A265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B571AF731A2D971900F9A265 /* AutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTests.m; sourceTree = "<group>"; };
+		B571AF7D1A2DD33E00F9A265 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B571AF7E1A2DD33E00F9A265 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B571AF821A2DD4A500F9A265 /* 2Unselect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Unselect.png; sourceTree = "<group>"; };
+		B571AF841A2DE50500F9A265 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		B5A6983E1A2EE19D0066B555 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B5A6983F1A2EE19D0066B555 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,10 @@
 				B571AF5C1A2D971900F9A265 /* AppDelegate.m */,
 				B571AF5E1A2D971900F9A265 /* ViewController.h */,
 				B571AF5F1A2D971900F9A265 /* ViewController.m */,
+				B571AF7D1A2DD33E00F9A265 /* SecondViewController.h */,
+				B571AF7E1A2DD33E00F9A265 /* SecondViewController.m */,
+				B5A6983E1A2EE19D0066B555 /* ThirdViewController.h */,
+				B5A6983F1A2EE19D0066B555 /* ThirdViewController.m */,
 				B571AF611A2D971900F9A265 /* Main.storyboard */,
 				B571AF641A2D971900F9A265 /* Images.xcassets */,
 				B571AF661A2D971900F9A265 /* LaunchScreen.xib */,
@@ -96,6 +110,8 @@
 		B571AF571A2D971900F9A265 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B571AF841A2DE50500F9A265 /* 7.png */,
+				B571AF821A2DD4A500F9A265 /* 2Unselect.png */,
 				B571AF581A2D971900F9A265 /* Info.plist */,
 				B571AF591A2D971900F9A265 /* main.m */,
 			);
@@ -200,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B571AF631A2D971900F9A265 /* Main.storyboard in Resources */,
+				B571AF831A2DD4A500F9A265 /* 2Unselect.png in Resources */,
+				B571AF851A2DE50500F9A265 /* 7.png in Resources */,
 				B571AF681A2D971900F9A265 /* LaunchScreen.xib in Resources */,
 				B571AF651A2D971900F9A265 /* Images.xcassets in Resources */,
 			);
@@ -219,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B571AF7F1A2DD33E00F9A265 /* SecondViewController.m in Sources */,
+				B5A698401A2EE19D0066B555 /* ThirdViewController.m in Sources */,
 				B571AF601A2D971900F9A265 /* ViewController.m in Sources */,
 				B571AF5D1A2D971900F9A265 /* AppDelegate.m in Sources */,
 				B571AF5A1A2D971900F9A265 /* main.m in Sources */,
@@ -280,7 +300,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -300,6 +321,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c145b935-07de-4662-9426-f56ad5836fd2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -321,7 +343,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -334,6 +357,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c145b935-07de-4662-9426-f56ad5836fd2";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -343,9 +367,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c145b935-07de-4662-9426-f56ad5836fd2";
 			};
 			name = Debug;
 		};
@@ -353,9 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravi Surathu (HJD5E9GNT7)";
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c145b935-07de-4662-9426-f56ad5836fd2";
 			};
 			name = Release;
 		};
@@ -412,6 +442,7 @@
 				B571AF791A2D971900F9A265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B571AF7A1A2D971900F9A265 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				B571AF7C1A2D971900F9A265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

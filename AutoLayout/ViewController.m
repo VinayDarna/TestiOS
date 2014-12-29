@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)nextClk:(id)sender
+{
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    secCntrl = [story instantiateViewControllerWithIdentifier:@"SecondViewController"];
+    [self.navigationController pushViewController:secCntrl animated:YES];
+}
+
 @end
