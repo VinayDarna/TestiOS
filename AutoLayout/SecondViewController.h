@@ -10,6 +10,7 @@
 #import "ThirdViewController.h"
 
 @interface SecondViewController : UIViewController
+
 - (IBAction)loginClk:(id)sender;
 
 @end
